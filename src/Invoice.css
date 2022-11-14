@@ -1,0 +1,71 @@
+.invoice-container{
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #222831;
+    flex-wrap: wrap;
+}
+
+.invoice-container:hover{
+    cursor: pointer;
+}
+
+.box{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:white
+}
+
+.id > h3{
+    font-weight: 800;
+    font-size: 2.5vmin;
+}
+
+.date > h3{
+    font-weight: 300;
+    font-size: 2.2vmin;
+}
+
+.payto > h3{
+    font-weight: 300;
+    font-size: 2.2vmin;
+}
+
+.amount > h3{
+    font-weight: 800;
+    font-size: 2.7vmin;
+}
+
+@media (max-width: 500px) {
+    .invoice-container{
+        flex-direction: column;
+    }
+    .id > h3{
+        font-weight: 800;
+        font-size: 2.5vmin;
+    }
+    
+    .date > h3{
+        font-weight: 400;
+        font-size: 2.7vmin;
+    }
+    
+    .payto > h3{
+        font-weight: 400;
+        font-size: 2.7vmin;
+    }
+    
+    .amount > h3{
+        font-weight: 800;
+        font-size: 3vmin;
+    }
+    .status > h3 {
+        font-size: 2.7vmin;
+    }
+}

@@ -1,0 +1,50 @@
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 70vw;
+    height: 100vh;
+    padding-top: 5%;
+}
+
+.content-top{
+    height: fit-content;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-info{
+    color: white;
+    justify-self: left;
+}
+
+.filter-new{
+    display: flex;
+    gap: 5px;
+}
+
+.button{
+    background: #624F82;
+    background: linear-gradient(135deg, #624F82 50%, #9F73AB 50%);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    padding: 10px;
+    font-size: 2.5vmin;
+    border-radius: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.filters{
+    background-color: #78909c;
+    color: #78909c;
+}
+
+.total-invoices{
+    font-weight: 400;
+    font-size: 2vmin;
+}
